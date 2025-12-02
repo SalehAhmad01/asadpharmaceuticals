@@ -50,6 +50,12 @@ const Header = () => {
             >
               Research
             </button>
+            <button
+              onClick={() => scrollToSection("prd")}
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              PR&D
+            </button>
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-soft"
@@ -94,6 +100,12 @@ const Header = () => {
               className="block w-full text-left px-4 py-2 text-foreground hover:bg-accent rounded-lg transition-colors"
             >
               Research
+            </button>
+            <button
+              onClick={() => scrollToSection("prd")}
+              className="block w-full text-left px-4 py-2 text-foreground hover:bg-accent rounded-lg transition-colors"
+            >
+              PR&D
             </button>
             <Button
               onClick={() => scrollToSection("contact")}
